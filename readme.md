@@ -69,13 +69,13 @@ The `OptionElement` class provides a method (called `bs_price()`) which calculat
 
 With the price in hand, the greeks (partial derivatives of price) for a `StructuredProduct` is calculated by finite differening, using defined methods for each greek.
 
-Creating unique structured products is made possible through the class `StructuredProductFactory` in [`optionsfactory.py`](\optionsfactory.py). This class provides functions that each correspond to special types of structured product (like a bear spread or a butterfly). These special constructors contstruct and return a `StructuredProduct` for a given set of input parameters.
+Creating unique structured products is made possible through the class `StructuredProductFactory` in [`optionsfactory.py`](/optionsfactory.py). This class provides functions that each correspond to special types of structured product (like a bear spread or a butterfly). These special constructors contstruct and return a `StructuredProduct` for a given set of input parameters.
 
 To create any new type of structured product, we only need to know its underlying options positions. Knowing this allows us to add another special constructor to the `StructuredProductFactory` class as required.
 
 ## 3. Visualizations
 
-Visializtions of the evolution of product price and greeks at varying underlying spot prices $S$ and at varying time remaing to expiry $\tau$ are shown in in the Python notebook [`charts.ipynb`](\charts.ipynb).
+Visializtions of the evolution of product price and greeks at varying underlying spot prices $S$ and at varying time remaing to expiry $\tau$ are shown in in the Python notebook [`charts.ipynb`](/charts.ipynb).
 
 ## 4. Observations
 
