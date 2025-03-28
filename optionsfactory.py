@@ -289,10 +289,10 @@ class StructuredProductFactory:
         product : StructuredProduct
         """
         # Construct butterfly spread elements
-        elements = [options.OptionElement(type='put', 
+        elements = [options.OptionElement(type='call', 
                                           strike=lower_strike - width/2,
                                           time_to_expiry=time_to_exp),
-                    options.OptionElement(type='put',
+                    options.OptionElement(type='call',
                                           strike=lower_strike,
                                           time_to_expiry=time_to_exp),
                     options.OptionElement(type='call', 
