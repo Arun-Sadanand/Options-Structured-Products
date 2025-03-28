@@ -18,14 +18,14 @@ $$
 Where,
 
 $$
-d_1 = \frac{log(\frac{S}{K}) + \bigl(r-d + \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}
+d_1 = \frac{log\bigl(\frac{S}{K}\bigr) + \bigl(r-d + \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}
 $$
 
 And,
 
 $$
 \begin{aligned}
-d_2 &= \frac{log(\frac{S}{K}) + \bigl(r-d - \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}\\
+d_2 &= \frac{log\bigl(\frac{S}{K}\bigr) + \bigl(r-d - \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}\\
 &= d_1 - \sigma\sqrt{\tau}
 \end{aligned}
 $$
