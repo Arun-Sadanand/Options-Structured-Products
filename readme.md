@@ -4,18 +4,25 @@
 
 As per the Black-Scholes model,
 The value of a European call option on a single underlying asset can be computed as,
+
 $$
 C(S, \tau) = S e^{-d\tau}  \Phi(d_1) - K e^{-r\tau} \Phi(d_2)
 $$
+
 And the value of a put option is,
+
 $$
 P(S,\tau) = -S e^{-d\tau} \Phi(-d_1) + K e^{-r\tau} \Phi(-d_2)
 $$
+
 Where,
+
 $$
 d_1 = \frac{log(\frac{S}{K}) + \bigl(r-d + \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}
 $$
+
 And,
+
 $$
 \begin{aligned}
 d_2 &= \frac{log(\frac{S}{K}) + \bigl(r-d - \frac{1}{2}\sigma^2\bigr)\tau}{\sigma\sqrt{\tau}}\\
